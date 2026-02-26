@@ -64,8 +64,8 @@ for day in days: #add the teachers/topics you have on Monday and day missed in t
     elif day == "Thursday":#add the teachers/topics you have on Thursday and day missed in the same format as below
         Hellinger += 1
         Hellingerday += " Thursday "
-        Conradt += 1
-        Conradtday += " Thursday "
+        Mitten += 1
+        Mittenday += " Thursday "
         Johns += 1
         Johnsday += " Thursday "
         Marletta += 1
@@ -75,8 +75,8 @@ for day in days: #add the teachers/topics you have on Monday and day missed in t
         Kammermeierday += "  Friday "
         Francis += 1
         Francisday += "  Friday "
-        Mitten += 1
-        Mittenday += "  Friday "
+        Conradt += 1
+        Conradtday += "  Friday "
 #underneath change the names and variables to the ones you have used above, do not change the structure of the lines, be ware of duplicates due to teachers with two (+) topics
 if Marletta > 0:
     print(f"I have missed Marlettas Math classes  {Marletta}  times on days: {Marlettaday}")
